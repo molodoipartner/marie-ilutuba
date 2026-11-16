@@ -1,3 +1,3 @@
 # Marie ilutuba
-Meie ilutuba pakub juuksehooldust.
+Meie ilutuba pakub juuksehooldust ja manikuuri.
 Ootame sind Tartus!
