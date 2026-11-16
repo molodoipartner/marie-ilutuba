@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marie ilutuba – hetk iseendale Tartu südames. Juuksehooldus, maniküür ja iluhoolitsused.">
+  <title>Marie ilutuba</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="galerii.js" defer></script>
+</head>
+<body>
+  <main class="layout">
+    <section class="salon" aria-labelledby="salon-title">
+      <header>
+        <p class="eyebrow">Väike ilutuba Tartu südames</p>
+        <h1 id="salon-title">Marie ilutuba<span class="flower" aria-hidden="true">✳</span></h1>
+        <nav aria-label="Peamenüü">
+          <a class="button" href="hinnakiri.html">Hinnakiri <span aria-hidden="true">↗</span></a>
+          <a class="button button-filled" href="broneeri.html">Broneeri aeg <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+      <figure class="gallery">
+        <img id="gallery-image" src="assets/salong.jpg" alt="Hubane ilusalong peeglite, tugitoolide ja roheliste taimedega" width="1400" height="933">
+        <figcaption>
+          <div><span class="eyebrow">Hea olla. Iseendana.</span><p id="gallery-caption">Sinu väike paus argipäevast.</p></div>
+          <div class="gallery-controls"><button type="button" id="previous" aria-label="Eelmine pilt">←</button><span id="gallery-counter" aria-live="polite">01 / 02</span><button type="button" id="next" aria-label="Järgmine pilt">→</button></div>
+        </figcaption>
+      </figure>
+    </section>
+    <aside class="contact" aria-label="Asukoht ja kontakt">
+      <div class="socials" aria-label="Sotsiaalmeedia">
+        <span class="social" role="img" aria-label="Instagram (peagi)" title="Instagram – peagi"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1" class="dot"/></svg></span>
+        <span class="social" role="img" aria-label="Facebook (peagi)" title="Facebook – peagi"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="solid" d="M14 22v-9h3l.5-4H14V7c0-1 .3-2 2-2h2V1.5A23 23 0 0 0 15 1c-3 0-5 2-5 5v3H7v4h3v9z"/></svg></span>
+        <a class="social" href="https://photosworthseeing.tumblr.com/" target="_blank" rel="noopener noreferrer" aria-label="Inspiratsioon Tumblr'is (avaneb uuel vahelehel)" title="Inspiratsioon Tumblr'is"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="solid" d="M14 2v5h5v4h-5v6c0 2 1 2 2 2l3-1v4l-4 1c-4 0-6-2-6-6v-6H6V8c3-1 4-3 4-6z"/></svg></a>
+      </div>
+      <div class="map-frame"><iframe title="Marie ilutoa näidisasukoht: Rüütli 10, Tartu" src="https://maps.google.com/maps?q=R%C3%BC%C3%BCtli%2010%2C%20Tartu&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+      <section class="details">
+        <p class="eyebrow">Tule meile külla</p>
+        <h2>Rüütli 10, Tartu</h2>
+        <p class="location-note">Rahulik hetk keset linna.</p>
+        <dl class="hours"><div><dt>Esmaspäev–reede</dt><dd>09.00–18.00</dd></div><div><dt>Laupäev</dt><dd>10.00–15.00</dd></div><div><dt>Pühapäev</dt><dd>Suletud</dd></div></dl>
+      </section>
+      <p class="little-note">Ilu algab heast enesetundest.</p>
+    </aside>
+  </main>
+  <footer>Marie ilutuba <span>Õppeprojekt · 2026</span></footer>
+</body>
+</html>
